@@ -1,0 +1,69 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: $primary-color;
+  color: $text-color;
+  height: 100vh;
+  width: $sidebar-width;
+  display: flex;
+  box-shadow: 5px 5px 10px #00000067;
+
+  .nav {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .nav-item {
+      color: white;
+      padding-top: 60px;
+      padding-bottom: 20px;
+
+      .nav-label {
+        visibility: hidden;
+        font-family: "Karla", sans-serif;
+      }
+      &:hover > a > .nav-label {
+        visibility: initial;
+        color: white;
+        text-align: center;
+      }
+    }
+  }
+}
+
+i {
+  color: white;
+}
+
+i:active {
+  color: white;
+}
+
+i:hover {
+  color: white;
+}
+
+i:visited {
+  color: white;
+}
+
+i:link {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: "Bebas Neue", cursive;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+hr {
+  background: $secondary-color;
+  height: 3px;
+  width: $sidebar-width;
+}
