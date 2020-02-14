@@ -4,5 +4,41 @@
 
   h1 {
     color: white;
+    font-family: $font;
+  }
+
+  .Presentation {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 100px;
+    position: relative;
+    font-family: $font;
+
+    img {
+      width: 300px;
+      height: 300px;
+      border-top-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      margin-right: 50px;
+    }
+    .text {
+      justify-content: center;
+      align-items: center;
+      width: 500px;
+      i {
+        color: $secondary-color;
+        padding-bottom: 50px;
+        span {
+          padding: 10px;
+          font-family: $font;
+        }
+      }
+    }
+    p {
+      font-family: $font;
+      text-align: justify;
+      text-justify: inter-word;
+    }
   }
 }
