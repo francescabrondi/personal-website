@@ -2,3 +2,17 @@
   height: 100vh;
   background: $background-color;
 }
+
+.Socials {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  z-index: 999;
+  margin-top: 20px;
+  margin-right: 20px;
+  i {
+    padding: 20px;
+    z-index: 999;
+    color: white;
+  }
+}

@@ -2,7 +2,8 @@ import React from "react";
 
 export default () => (
   <div className="About">
-    <h1>About me</h1>
+    <h1 className="title-page">About me</h1>
+
     <div className="Presentation">
       <img
         src="https://scontent.fmxp6-1.fna.fbcdn.net/v/t1.0-9/72414762_2736260529757899_2412866447404433408_n.jpg?_nc_cat=105&_nc_ohc=bFekWYWXmdUAX_UcgKH&_nc_ht=scontent.fmxp6-1.fna&oh=9f8b97439f98a87399ead96fc499fd2c&oe=5F035D1B"
@@ -22,6 +23,45 @@ export default () => (
           rem exercitationem architecto corrupti sunt similique iusto vero
           expedita aliquid. Ex, illum.
         </p>
+      </div>
+    </div>
+    <h3>My interests</h3>
+    <div className="Interests">
+      <div className="container">
+        <div className="row">
+          <div className="col">
+            <i class="fas fa-globe-americas ">
+              <span>Travelling</span>{" "}
+            </i>
+          </div>
+          <div class="col">
+            <i class="fas fa-globe-americas ">
+              <span>Travelling</span>{" "}
+            </i>
+          </div>
+          <div class="col">
+            <i class="fas fa-globe-americas ">
+              <span>Travelling</span>{" "}
+            </i>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <i class="fas fa-globe-americas ">
+              <span>Travelling</span>{" "}
+            </i>
+          </div>
+          <div class="col">
+            <i class="fas fa-globe-americas ">
+              <span>Travelling</span>{" "}
+            </i>
+          </div>
+          <div class="col">
+            <i class="fas fa-globe-americas ">
+              <span>Travelling</span>{" "}
+            </i>
+          </div>
+        </div>
       </div>
     </div>
   </div>

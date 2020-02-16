@@ -11,6 +11,7 @@ import "./scss/styles.scss";
 export default () => (
   <div className="app">
     <Sidebar />
+
     <Switch>
       <Route exact path="/" component={Home} />
       <Route exact path="/about" component={About} />

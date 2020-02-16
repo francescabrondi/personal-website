@@ -6,24 +6,27 @@
 .homepage {
   height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   margin-left: 170px;
   position: relative;
   z-index: 1;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: -1;
-}
-
-.name {
-  font-size: 100px;
-  color: white;
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+  }
+  .name {
+    font-size: 100px;
+    color: white;
+    font-family: "Bebas Neue", cursive;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 30%;
+  }
 }
