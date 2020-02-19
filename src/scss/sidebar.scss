@@ -72,11 +72,11 @@
 
   .active {
     i {
-      color: #db21e2;
+      color: $secondary-color;
     }
   }
 
   i:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
   }
 }

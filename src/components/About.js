@@ -30,35 +30,35 @@ export default () => (
       <div className="container">
         <div className="row">
           <div className="col">
-            <i class="fas fa-globe-americas ">
-              <span>Travelling</span>{" "}
+            <i class="fas fa-code">
+              <span>Coding</span>{" "}
             </i>
           </div>
-          <div class="col">
-            <i class="fas fa-globe-americas ">
-              <span>Travelling</span>{" "}
-            </i>
-          </div>
-          <div class="col">
-            <i class="fas fa-globe-americas ">
-              <span>Travelling</span>{" "}
-            </i>
-          </div>
-        </div>
-        <div className="row">
           <div className="col">
             <i class="fas fa-globe-americas ">
               <span>Travelling</span>{" "}
             </i>
           </div>
           <div class="col">
-            <i class="fas fa-globe-americas ">
-              <span>Travelling</span>{" "}
+            <i class="fas fa-book">
+              <span>Books</span>{" "}
+            </i>
+          </div>
+        </div>
+        <div className="row">
+          <div class="col">
+            <i class="fas fa-music">
+              <span>Music</span>{" "}
             </i>
           </div>
           <div class="col">
-            <i class="fas fa-globe-americas ">
-              <span>Travelling</span>{" "}
+            <i class="fas fa-edit">
+              <span>Design</span>{" "}
+            </i>
+          </div>
+          <div class="col">
+            <i class="fas fa-language">
+              <span>Languages</span>{" "}
             </i>
           </div>
         </div>

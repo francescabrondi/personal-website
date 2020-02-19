@@ -1,0 +1,17 @@
+.Socials {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  z-index: 999;
+  margin-top: 20px;
+  margin-right: 20px;
+  i {
+    padding: 20px;
+    z-index: 999;
+    color: white;
+    transition: transform 0.3s;
+    &:hover {
+      transform: scale(1.5);
+    }
+  }
+}
